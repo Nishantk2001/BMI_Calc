@@ -1,0 +1,39 @@
+:root {
+  --underweight: yellow;
+  --normal: green;
+  --overweight: skyblue;
+  --obese: red;
+}
+.bmi-scale {
+  display: flex;
+}
+
+.bmi-scale div {
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 5px solid var(--color);
+  padding: 10px;
+}
+
+.bmi-scale h4 {
+  font-size: 0.75rem;
+  color: slategray;
+}
+
+.underweight {
+  color: var(--underweight);
+}
+
+.healthy {
+  color: var(--normal);
+}
+
+.overweight {
+  color: var(--overweight);
+}
+
+.obese {
+  color: var(--obese);
+}
+/* https: //mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp; */
